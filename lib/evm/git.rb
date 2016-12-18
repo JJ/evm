@@ -18,6 +18,12 @@ module Evm
       end
     end
 
+    def upgrade
+      Dir.chdir(@path) do
+        git 'upgrade'
+      end
+    end
+
 
     private
 

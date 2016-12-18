@@ -203,6 +203,9 @@ with:
 $ rspec spec
 ```
 
+(you will have to `bundle install` first if it's not already
+installed in your system)
+
 If all passes, send us a
 [pull request](https://github.com/rejeep/evm/pulls) with the changes.
 
